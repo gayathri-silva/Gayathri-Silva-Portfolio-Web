@@ -1,0 +1,645 @@
+    <!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Gayathri Silva | Cybersecurity Portfolio</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    .cyber-glow { text-shadow: 0 0 15px rgb(0, 255, 150); }
+    .card-hover { transition: all 0.3s ease; }
+    .card-hover:hover { transform: translateY(-8px); box-shadow: 0 0 25px rgba(0, 255, 150, 0.3); }
+  </style>
+</head>
+<body class="bg-zinc-950 text-white">
+
+  <!-- Navigation -->
+<nav class="fixed top-0 w-full bg-zinc-950/90 backdrop-blur-md z-50 border-b border-emerald-900">
+  <div class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+    
+    <h1 class="text-2xl font-bold tracking-wider">
+      Gayathri<span class="text-emerald-400"> Silva</span>
+    </h1>
+
+    <!-- Desktop Menu -->
+    <div class="space-x-8 text-sm font-medium hidden md:flex">
+      <a href="#about" class="hover:text-emerald-400 transition">About</a>
+      <a href="#education" class="hover:text-emerald-400 transition">Education</a>
+      <a href="#skills" class="hover:text-emerald-400 transition">Skills</a>
+      <a href="#projects" class="hover:text-emerald-400 transition">Projects</a>
+      <a href="#certifications" class="hover:text-emerald-400 transition">Certifications</a>
+      <a href="#contact" class="hover:text-emerald-400 transition">Contact</a>
+    </div>
+
+    <!-- Mobile Hamburger -->
+    <button id="mobile-menu-btn" class="md:hidden text-3xl text-emerald-400">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+
+  <!-- Mobile Menu (Hidden by default) -->
+  <div id="mobile-menu" class="hidden md:hidden bg-zinc-950 border-t border-emerald-900">
+    <div class="flex flex-col px-6 py-6 space-y-6 text-lg font-medium">
+      <a href="#about" class="hover:text-emerald-400 transition">About</a>
+      <a href="#education" class="hover:text-emerald-400 transition">Education</a>
+      <a href="#skills" class="hover:text-emerald-400 transition">Skills</a>
+      <a href="#projects" class="hover:text-emerald-400 transition">Projects</a>
+      <a href="#certifications" class="hover:text-emerald-400 transition">Certifications</a>
+      <a href="#contact" class="hover:text-emerald-400 transition">Contact</a>
+    </div>
+  </div>
+</nav>
+
+  <!-- Hero Section -->
+<section class="min-h-screen flex items-center justify-center pt-16 bg-gradient-to-br from-zinc-950 via-zinc-900 to-black">
+  <div class="max-w-5xl mx-auto text-center px-6">
+
+    <!-- Tag -->
+    <div class="mb-6 inline-flex items-center gap-2 bg-emerald-950 border border-emerald-500 text-emerald-400 px-4 py-2 rounded-full text-sm">
+      <i class="fas fa-shield-alt"></i> Aspiring Cybersecurity Professional
+    </div>
+
+    <!-- Name -->
+    <h1 class="text-6xl md:text-7xl font-bold mb-6 cyber-glow">
+      Hi, I'm <span class="text-emerald-400">Gayathri Silva</span>
+    </h1>
+
+    <!-- Title -->
+    <p class="text-3xl md:text-4xl text-zinc-400 mb-8">
+      Cybersecurity Undergraduate <span class="text-white">SLIIT</span>
+    </p>
+
+    <!-- Description -->
+    <p class="text-xl text-zinc-500 max-w-2xl mx-auto mb-10">
+      Second-year Cyber Security undergraduate at SLIIT with a strong interest in network security, secure software development, and cybersecurity research.
+      Passionate about building practical security tools and continuously expanding technical skills through hands-on projects.
+    </p>
+
+    <!-- Buttons -->
+    <div class="flex flex-wrap justify-center gap-5">
+
+      <!-- Contact Button -->
+      <a href="#contact"
+         class="px-8 py-4 border border-emerald-400 hover:bg-emerald-400/10 rounded-xl font-semibold transition">
+         Get In Touch
+      </a>
+
+      <!-- View CV -->
+      <a href="Gayathri Silva.pdf"
+         target="_blank"
+         class="px-8 py-4 bg-emerald-500 hover:bg-emerald-600 text-white rounded-xl font-semibold transition transform hover:scale-105 flex items-center gap-2">
+         <i class="fas fa-eye"></i> View CV
+      </a>
+    </div>
+
+  </div>
+</section>
+
+    <!-- About Me -->
+<section id="about" class="py-24 bg-zinc-900">
+  <div class="max-w-6xl mx-auto px-6">
+
+    <!-- Title -->
+    <h2 class="text-4xl font-bold mb-12 text-center">About Me</h2>
+
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+
+      <!-- LEFT IMAGE -->
+      <div>
+        <img src="Gayathri.jpg" 
+             alt="Gayathri Silva" 
+             class="rounded-3xl w-full aspect-square object-cover border-4 border-emerald-500/30 shadow-lg hover:scale-105 transition">
+      </div>
+
+      <!-- RIGHT CONTENT -->
+      <div class="space-y-6 text-lg leading-relaxed text-zinc-400">
+
+        <p>I am a second-year Cyber Security undergraduate at SLIIT with a strong interest in network security, secure software development, and cybersecurity operations.</p>
+        <p> hands-on projects, CTF challenges, and academic coursework, I have developed practical skills in security analysis, secure coding, and system administration.</p> 
+        <p>I am actively seeking internship opportunities to gain industry experience and contribute to building secure and resilient systems.</p>
+
+        <!-- ✅ UPDATED INFO CARDS -->
+        <div class="grid grid-cols-2 gap-4 pt-6">
+
+          <!-- Currently Learning -->
+          <div class="bg-zinc-800 p-4 rounded-2xl border border-emerald-900 hover:shadow-lg hover:shadow-emerald-500/20 transition">
+            <p class="text-emerald-400 text-sm">Currently Learning</p>
+            <p class="font-semibold text-white">
+              Penetration Testing</p> <p class="text-zinc-400">• SIEM</p> <p class="text-zinc-400">• Digital Forensics</p> <p class="text-zinc-400">• Cloud Security</p>
+            </p>
+          </div>
+
+          <!-- Location -->
+          <div class="bg-zinc-800 p-4 rounded-2xl border border-emerald-900 hover:shadow-lg hover:shadow-emerald-500/20 transition">
+            <p class="text-emerald-400 text-sm">Location</p>
+            <p class="font-semibold text-white">Sri Lanka </p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- STATS -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-20 text-center">
+
+      <div class="bg-zinc-800 p-6 rounded-2xl border border-emerald-900 hover:shadow-lg hover:shadow-emerald-500/20 transition">
+        <h3 class="text-3xl font-bold text-emerald-400">7+</h3>
+        <p class="text-sm text-zinc-400 mt-2">Projects</p>
+      </div>
+
+      <div class="bg-zinc-800 p-6 rounded-2xl border border-emerald-900 hover:shadow-lg hover:shadow-emerald-500/20 transition">
+        <h3 class="text-3xl font-bold text-emerald-400">20+</h3>
+        <p class="text-sm text-zinc-400 mt-2">CTF / Challenges</p>
+      </div>
+
+      <div class="bg-zinc-800 p-6 rounded-2xl border border-emerald-900 hover:shadow-lg hover:shadow-emerald-500/20 transition">
+        <h3 class="text-3xl font-bold text-emerald-400">2+</h3>
+        <p class="text-sm text-zinc-400 mt-2">Years Learning</p>
+      </div>
+
+      <div class="bg-zinc-800 p-6 rounded-2xl border border-emerald-900 hover:shadow-lg hover:shadow-emerald-500/20 transition">
+        <h3 class="text-3xl font-bold text-emerald-400">1+</h3>
+        <p class="text-sm text-zinc-400 mt-2">Certifications</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- Education -->
+<section id="education" class="py-24 bg-zinc-900">
+  <div class="max-w-6xl mx-auto px-6">
+
+    <!-- Title -->
+    <h2 class="text-4xl font-bold mb-16 text-center">Education</h2>
+
+    <div class="space-y-10">
+
+      <!-- Degree -->
+      <div class="max-w-3xl mx-auto bg-zinc-800 border border-emerald-800 rounded-3xl p-8 hover:border-emerald-500 hover:shadow-lg hover:shadow-emerald-500/20 transition">
+        
+        <div class="flex justify-between items-start flex-wrap gap-4">
+          <div>
+            <h3 class="text-2xl font-bold flex items-center gap-2">
+              🎓 BSc (Hons) in Cyber Security
+            </h3>
+            <p class="text-emerald-400 text-lg">
+              Sri Lanka Institute of Information Technology (SLIIT)
+            </p>
+          </div>
+
+          <div class="text-zinc-400 text-sm">
+            2023 — Present
+          </div>
+        </div>
+
+        <p class="mt-5 text-zinc-400">
+          Relevant Coursework: Network Security, Cryptography, Ethical Hacking,
+          Digital Forensics, Secure Software Development, Data Structures & Algorithms
+        </p>
+      </div>
+
+      <!-- A/L -->
+      <div class="max-w-3xl mx-auto bg-zinc-800 border border-emerald-800 rounded-3xl p-8 hover:border-emerald-500 hover:shadow-lg hover:shadow-emerald-500/20 transition">
+        
+        <div class="flex justify-between items-start flex-wrap gap-4">
+          <div>
+            <h3 class="text-2xl font-bold flex items-center gap-2">
+              📘 G.C.E. Advanced Level
+            </h3>
+            <p class="text-emerald-400 text-lg">
+              Senarath Paranavithana National College – Udugampola
+            </p>
+          </div>
+
+          <div class="text-zinc-400 text-sm">
+            2020 — 2023
+          </div>
+        </div>
+
+        <p class="mt-5 text-zinc-400">
+          Stream: Physical Science
+        </p>
+      </div>
+
+      <!-- O/L -->
+      <div class="max-w-3xl mx-auto bg-zinc-800 border border-emerald-800 rounded-3xl p-8 hover:border-emerald-500 hover:shadow-lg hover:shadow-emerald-500/20 transition">
+        
+        <div class="flex justify-between items-start flex-wrap gap-4">
+          <div>
+            <h3 class="text-2xl font-bold flex items-center gap-2">
+              📗 G.C.E. Ordinary Level
+            </h3>
+            <p class="text-emerald-400 text-lg">
+              Senarath Paranavithana National College – Udugampola
+            </p>
+          </div>
+
+          <div class="text-zinc-400 text-sm">
+            2018 — 2019
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+  
+
+  <!-- Skills -->
+<section id="skills" class="py-24 bg-zinc-900">
+  <div class="max-w-6xl mx-auto px-6">
+
+    <!-- Title -->
+    <h2 class="text-4xl font-bold mb-12 text-center">Skills & Expertise</h2>
+
+    <!-- ================= TECHNICAL SKILLS ================= -->
+    <h3 class="text-2xl font-semibold mb-6 text-emerald-400">Technical Skills</h3>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-12">
+
+      <div class="bg-zinc-800 p-6 rounded-2xl card-hover">
+        <i class="fas fa-network-wired text-3xl mb-4 text-emerald-400"></i>
+        <p class="font-semibold">TCP/IP Networking</p>
+      </div>
+
+      <div class="bg-zinc-800 p-6 rounded-2xl card-hover">
+        <i class="fas fa-plug text-3xl mb-4 text-emerald-400"></i>
+        <p class="font-semibold">Socket Programming</p>
+      </div>
+
+      <div class="bg-zinc-800 p-6 rounded-2xl card-hover">
+        <i class="fab fa-linux text-3xl mb-4 text-emerald-400"></i>
+        <p class="font-semibold">Linux & Ubuntu</p>
+      </div>
+
+      <div class="bg-zinc-800 p-6 rounded-2xl card-hover">
+        <i class="fas fa-lock text-3xl mb-4 text-emerald-400"></i>
+        <p class="font-semibold">Network Security</p>
+      </div>
+
+      <div class="bg-zinc-800 p-6 rounded-2xl card-hover">
+        <i class="fas fa-code text-3xl mb-4 text-emerald-400"></i>
+        <p class="font-semibold">Object-Oriented Programming</p>
+      </div>
+
+      <div class="bg-zinc-800 p-6 rounded-2xl card-hover">
+        <i class="fas fa-globe text-3xl mb-4 text-emerald-400"></i>
+        <p class="font-semibold">Web Development (HTML)</p>
+      </div>
+
+      <div class="bg-zinc-800 p-6 rounded-2xl card-hover">
+        <i class="fas fa-database text-3xl mb-4 text-emerald-400"></i>
+        <p class="font-semibold">SQL & Databases</p>
+      </div>
+
+      <div class="bg-zinc-800 p-6 rounded-2xl card-hover">
+        <i class="fab fa-github text-3xl mb-4 text-emerald-400"></i>
+        <p class="font-semibold">Git & Version Control</p>
+      </div>
+
+      <div class="bg-zinc-800 p-6 rounded-2xl card-hover">
+        <i class="fas fa-shield-alt text-3xl mb-4 text-emerald-400"></i>
+        <p class="font-semibold">Web Security</p>
+      </div>
+
+    </div>
+
+    <!-- ================= PROGRAMMING LANGUAGES ================= -->
+    <h3 class="text-2xl font-semibold mb-6 text-cyan-400">Programming Languages</h3>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-12">
+
+      <div class="bg-zinc-800 p-6 rounded-2xl card-hover">
+        <i class="fab fa-java text-3xl mb-4 text-cyan-400"></i>
+        <p class="font-semibold">Java</p>
+      </div>
+
+      <div class="bg-zinc-800 p-6 rounded-2xl card-hover">
+        <i class="fab fa-python text-3xl mb-4 text-cyan-400"></i>
+        <p class="font-semibold">Python</p>
+      </div>
+
+      <div class="bg-zinc-800 p-6 rounded-2xl card-hover">
+        <i class="fas fa-code text-3xl mb-4 text-cyan-400"></i>
+        <p class="font-semibold">C</p>
+      </div>
+
+      <div class="bg-zinc-800 p-6 rounded-2xl card-hover">
+        <i class="fab fa-js text-3xl mb-4 text-cyan-400"></i>
+        <p class="font-semibold">JavaScript</p>
+      </div>
+
+    </div>
+
+    <!-- ================= TOOLS ================= -->
+    <h3 class="text-2xl font-semibold mb-6 text-purple-400">Tools & Technologies</h3>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-12">
+
+      <div class="bg-zinc-800 p-6 rounded-2xl card-hover">
+        <i class="fas fa-laptop-code text-3xl mb-4 text-purple-400"></i>
+        <p class="font-semibold">VS Code</p>
+      </div>
+
+      <div class="bg-zinc-800 p-6 rounded-2xl card-hover">
+        <i class="fas fa-code text-3xl mb-4 text-purple-400"></i>
+        <p class="font-semibold">IntelliJ IDEA</p>
+      </div>
+
+      <div class="bg-zinc-800 p-6 rounded-2xl card-hover">
+        <i class="fas fa-book text-3xl mb-4 text-purple-400"></i>
+        <p class="font-semibold">Jupyter Notebook</p>
+      </div>
+
+    </div>
+
+    <!-- ================= SOFT SKILLS ================= -->
+    <h3 class="text-2xl font-semibold mb-6 text-blue-400">Soft Skills</h3>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
+      <div class="bg-zinc-800 p-6 rounded-2xl card-hover">
+        <i class="fas fa-lightbulb text-3xl mb-4 text-blue-400"></i>
+        <p class="font-semibold">Problem Solving</p>
+      </div>
+
+      <div class="bg-zinc-800 p-6 rounded-2xl card-hover">
+        <i class="fas fa-clock text-3xl mb-4 text-blue-400"></i>
+        <p class="font-semibold">Time Management</p>
+      </div>
+
+      <div class="bg-zinc-800 p-6 rounded-2xl card-hover">
+        <i class="fas fa-users text-3xl mb-4 text-blue-400"></i>
+        <p class="font-semibold">Teamwork</p>
+      </div>
+
+      <div class="bg-zinc-800 p-6 rounded-2xl card-hover">
+        <i class="fas fa-user-tie text-3xl mb-4 text-blue-400"></i>
+        <p class="font-semibold">Leadership</p>
+      </div>
+
+      <div class="bg-zinc-800 p-6 rounded-2xl card-hover">
+        <i class="fas fa-comments text-3xl mb-4 text-blue-400"></i>
+        <p class="font-semibold">Communication</p>
+      </div>
+
+      <div class="bg-zinc-800 p-6 rounded-2xl card-hover">
+        <i class="fas fa-brain text-3xl mb-4 text-blue-400"></i>
+        <p class="font-semibold">Analytical Thinking</p>
+      </div>
+
+      <div class="bg-zinc-800 p-6 rounded-2xl card-hover">
+        <i class="fas fa-sync text-3xl mb-4 text-blue-400"></i>
+        <p class="font-semibold">Adaptability</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+    <!-- Projects -->
+<section id="projects" class="py-24 bg-gradient-to-br from-zinc-900 via-zinc-800 to-zinc-900">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-4xl font-bold mb-12 text-center">Featured Projects & CTFs</h2>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Advanced Password Checker -->
+      <div class="bg-zinc-900 rounded-3xl overflow-hidden border border-emerald-800 hover:border-emerald-500 hover:shadow-lg hover:shadow-emerald-500/20 transition">
+        <div class="h-56 bg-gradient-to-br from-pink-900 to-zinc-800 flex items-center justify-center">
+          <i class="fas fa-lock text-8xl text-pink-500/30"></i>
+        </div>
+        <div class="p-6">
+          <h3 class="text-2xl font-bold mb-2">Advanced Password Checker</h3>
+          <p class="text-zinc-400 mb-4">
+            Analyzes password strength and detects vulnerabilities.
+          </p>
+          <div class="flex flex-wrap gap-2 text-xs mb-4">
+            <span class="bg-zinc-800 px-3 py-1 rounded-full">Python</span>
+            <span class="bg-zinc-800 px-3 py-1 rounded-full">JavaScript</span>
+            <span class="bg-zinc-800 px-3 py-1 rounded-full">Security</span>
+          </div>
+          <a href="https://github.com/gayathri-silva/Advanced-Password-Strength-Checker"
+             target="_blank"
+             class="text-pink-400 hover:text-pink-300 text-sm font-medium">
+            View on GitHub →
+          </a>
+        </div>
+      </div>
+
+      <!-- TCP Server -->
+      <div class="bg-zinc-900 rounded-3xl overflow-hidden border border-emerald-800 hover:border-emerald-500 hover:shadow-lg hover:shadow-emerald-500/20 transition">
+        <div class="h-56 bg-gradient-to-br from-emerald-900 to-zinc-800 flex items-center justify-center">
+          <i class="fas fa-server text-8xl text-emerald-500/30"></i>
+        </div>
+        <div class="p-6">
+          <h3 class="text-2xl font-bold mb-2">Secure TCP Server</h3>
+          <p class="text-zinc-400 mb-4">
+            Multi-client TCP server with secure communication.
+          </p>
+          <div class="flex flex-wrap gap-2 text-xs mb-4">
+            <span class="bg-zinc-800 px-3 py-1 rounded-full">TCP/IP</span>
+            <span class="bg-zinc-800 px-3 py-1 rounded-full">Security</span>
+          </div>
+          <a href="https://github.com/gayathri-silva/Secure-Multiprocessor-TCP-Application-Server"
+             target="_blank"
+             class="text-emerald-400 hover:text-emerald-300 text-sm font-medium">
+            View on GitHub →
+          </a>
+        </div>
+      </div>
+
+      <!-- Safari -->
+      <div class="bg-zinc-900 rounded-3xl overflow-hidden border border-emerald-800 hover:border-emerald-500 hover:shadow-lg hover:shadow-emerald-500/20 transition">
+        <div class="h-56 bg-gradient-to-br from-amber-900 to-zinc-800 flex items-center justify-center">
+          <i class="fas fa-paw text-8xl text-amber-500/30"></i>
+        </div>
+        <div class="p-6">
+          <h3 class="text-2xl font-bold mb-2">Safari Management System</h3>
+          <p class="text-zinc-400 mb-4">
+            System for managing safari bookings and scheduling.
+          </p>
+          <a href="https://github.com/gayathri-silva/Safari-Management-System"
+             target="_blank"
+             class="text-amber-400 hover:text-amber-300 text-sm font-medium">
+            View on GitHub →
+          </a>
+        </div>
+      </div>
+
+      <!-- SOC -->
+      <div class="bg-zinc-900 rounded-3xl overflow-hidden border border-emerald-800 hover:border-emerald-500 hover:shadow-lg hover:shadow-emerald-500/20 transition">
+        <div class="h-56 bg-gradient-to-br from-purple-900 to-zinc-800 flex items-center justify-center">
+          <i class="fas fa-shield-alt text-8xl text-purple-500/30"></i>
+        </div>
+        <div class="p-6">
+          <h3 class="text-2xl font-bold mb-2">SOC Monitoring System</h3>
+          <p class="text-zinc-400 mb-4">
+            Monitors network traffic and triages alerts.
+          </p>
+          <a href="https://github.com/gayathri-silva/SOC-Traffic-Monitoring-and-Automated-Alert-Triage-System"
+             target="_blank"
+             class="text-purple-400 hover:text-purple-300 text-sm font-medium">
+            View on GitHub →
+          </a>
+        </div>
+      </div>
+
+      <!-- Fitness -->
+      <div class="bg-zinc-900 rounded-3xl overflow-hidden border border-emerald-800 hover:border-emerald-500 hover:shadow-lg hover:shadow-emerald-500/20 transition">
+        <div class="h-56 bg-gradient-to-br from-blue-900 to-zinc-800 flex items-center justify-center">
+          <i class="fas fa-dumbbell text-8xl text-blue-500/30"></i>
+        </div>
+        <div class="p-6">
+          <h3 class="text-2xl font-bold mb-2">Fitness Management System</h3>
+          <p class="text-zinc-400 mb-4">
+            Tracks workouts and fitness progress.
+          </p>
+          <a href="https://github.com/gayathri-silva/fitness-management-system"
+             target="_blank"
+             class="text-blue-400 hover:text-blue-300 text-sm font-medium">
+            View on GitHub →
+          </a>
+        </div>
+      </div>
+
+      <!-- File Integrity -->
+      <div class="bg-zinc-900 rounded-3xl overflow-hidden border border-emerald-800 hover:border-emerald-500 hover:shadow-lg hover:shadow-emerald-500/20 transition">
+        <div class="h-56 bg-gradient-to-br from-green-900 to-zinc-800 flex items-center justify-center">
+          <i class="fas fa-file-shield text-8xl text-green-500/30"></i>
+        </div>
+        <div class="p-6">
+          <h3 class="text-2xl font-bold mb-2">File Integrity Checker</h3>
+          <p class="text-zinc-400 mb-4">
+            Detects file modifications using hashing.
+          </p>
+          <a href="https://github.com/gayathri-silva/File-Integrity-Checker"
+             target="_blank"
+             class="text-green-400 hover:text-green-300 text-sm font-medium">
+            View on GitHub →
+          </a>
+        </div>
+      </div>
+
+      <!-- Data Preprocessing & EDA -->
+<div class="bg-zinc-900 rounded-3xl overflow-hidden border border-emerald-800 hover:border-emerald-500 hover:shadow-lg hover:shadow-emerald-500/20 transition">
+  
+  <div class="h-56 bg-gradient-to-br from-cyan-900 to-zinc-800 flex items-center justify-center">
+    <i class="fas fa-chart-line text-8xl text-cyan-500/30"></i>
+  </div>
+
+  <div class="p-6">
+    <h3 class="text-2xl font-bold mb-2">Data Preprocessing & EDA Visualization</h3>
+
+    <p class="text-zinc-400 mb-4">
+      Performed data cleaning, preprocessing, and exploratory data analysis (EDA) to identify patterns and insights using visualizations.
+    </p>
+
+    <div class="flex flex-wrap gap-2 text-xs mb-4">
+      <span class="bg-zinc-800 px-3 py-1 rounded-full">Python</span>
+      <span class="bg-zinc-800 px-3 py-1 rounded-full">Pandas</span>
+      <span class="bg-zinc-800 px-3 py-1 rounded-full">Matplotlib</span>
+      <span class="bg-zinc-800 px-3 py-1 rounded-full">Seaborn</span>
+      <span class="bg-zinc-800 px-3 py-1 rounded-full">EDA</span>
+    </div>
+
+    <a href="https://github.com/gayathri-silva/Data-Preprocessing-EDA-Visualization"
+       target="_blank"
+       class="inline-block text-sm text-cyan-400 hover:text-cyan-300 font-medium">
+       View on GitHub →
+    </a>
+  </div>
+
+</div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="py-24 bg-zinc-900">
+  <div class="max-w-4xl mx-auto px-6 text-center">
+
+    <h2 class="text-4xl font-bold mb-6">Let's Connect</h2>
+
+    <p class="text-xl text-zinc-400 mb-10">
+      Open to internships, research opportunities, and cybersecurity discussions.
+    </p>
+    
+    <!-- Social Links -->
+    <div class="flex justify-center gap-10 text-4xl mb-12">
+
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/gayathri-silva-0a7b04372/" 
+         target="_blank"
+         class="hover:text-emerald-400 transition transform hover:scale-110">
+        <i class="fab fa-linkedin"></i>
+      </a>
+
+      <!-- GitHub -->
+      <a href="https://github.com/gayathri-silva" 
+         target="_blank"
+         class="hover:text-emerald-400 transition transform hover:scale-110">
+        <i class="fab fa-github"></i>
+      </a>
+
+    <!-- Email Icon -->
+<a href="mailto:gayathri15nirasha2022@gmail.com"
+   onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&to=gayathri15nirasha2022@gmail.com','_blank')"
+   class="hover:text-emerald-400 transition transform hover:scale-110">
+  <i class="fas fa-envelope"></i>
+</a>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-8 text-center text-zinc-500 text-sm">
+  © 2026 Silva M.G.N • Built with passion for Cybersecurity 🔐
+</footer>
+
+<script>
+
+    // ================== MOBILE MENU ==================
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    mobileBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+      
+      // Change icon between bars and X
+      const icon = mobileBtn.querySelector('i');
+      if (icon.classList.contains('fa-bars')) {
+        icon.classList.remove('fa-bars');
+        icon.classList.add('fa-xmark');
+      } else {
+        icon.classList.remove('fa-xmark');
+        icon.classList.add('fa-bars');
+      }
+    });
+
+    // Close mobile menu when clicking a link
+    document.querySelectorAll('#mobile-menu a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+        const icon = mobileBtn.querySelector('i');
+        icon.classList.remove('fa-xmark');
+        icon.classList.add('fa-bars');
+      });
+    });
+  </script>
+
+
+</body>
+</html>
+
+
